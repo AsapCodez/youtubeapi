@@ -15,7 +15,7 @@ function search(q) {
     $('#search-container').html('<pre>' + str + '</pre>');
   });
 }
-$('.search-button').click(function() {
+$('#search-button').click(function() {
     var request = $('.form-control').val();
     search(request)
 });
