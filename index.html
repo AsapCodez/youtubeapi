@@ -1,28 +1,33 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <title>Fortnite Searcher</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link type="text/css" rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
-    
-</head>
-<body>
-    <h1>Fortnite Search </h1>
-     <div id="search-container">
-    </div>
-    <div id="buttons">
-    <label> <input id="query" value='Type Keywords' type="text"/><button id="search-button">Search</button></label>
-    </div>
-    <form>
-       
-    </form>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <script src="auth.js"></script>
-    <script src="jquery.js" async></script>
-    <script src="https://apis.google.com/js/client.js?onload=googleApiClientReady"></script>
-</body>
-
+<html lang="en">
+    <head>		
+        <title>Fortnite Search</title>
+        <meta charset="UTF-8" />					
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Awesome videos!" />
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Luckiest+Guy" />
+        <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1 class="w100 text-center"><a href="index.html">Fortnite Search</a></h1>
+        </header>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <form action="#">
+                    <p><input type="text" id="search" placeholder="Type something..." autocomplete="off" class="form-control" /></p>
+                    <p><input type="submit" value="Search" class="form-control btn btn-primary w100"></p>
+                </form>
+                <div id="results"></div>
+            </div>
+        </div>
+        
+        <!-- scripts -->
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="https://apis.google.com/js/client.js?onload=init"></script>
+    </body>
 </html>
+

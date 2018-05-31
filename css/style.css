@@ -1,0 +1,77 @@
+body { 
+    background: #307fff;
+}
+h2{
+    font-family: 'Handlee', cursive;
+    color:white;
+    text-shadow: 2px 2px 3px #000000;
+}
+header { 
+    margin-top: 30px;
+}
+header a { 
+    font-family: "Luckiest Guy";
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    color: black; 
+    text-decoration: none; 
+    transition: 0.8s;
+    text-shadow: -2px 2px 30px white;
+    
+}
+header a:hover { 
+    color:white;
+    text-decoration: none; 
+    text-shadow: 2px 2px 30px #000000;
+}
+form { 
+    margin-top: 20px; 
+    
+}
+form, #results { 
+    padding: 0 20px; 
+}
+.item { 
+    margin-bottom: 25px; 
+
+}
+.w100 { 
+    width: 100%; 
+}
+
+.btn-primary { 
+    background: black; 
+    border-color: white;
+    transition: 2.8s;
+}
+.form-control:hover{
+    color:black;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus { 
+    background: white;  
+    border-color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition: 2.0s;
+}
+#search{
+     width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+#search:focus{
+    width:100%;
+}
